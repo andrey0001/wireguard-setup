@@ -23,7 +23,7 @@ A comprehensive bash script for setting up and managing a WireGuard VPN server o
 
 1. Download the script:
    ```bash
-   wget https://example.com/wireguard-setup.sh
+   wget https://raw.githubusercontent.com/andrey0001/wireguard-setup/refs/heads/master/wireguard-setup.sh
    ```
 
 2. Make it executable:
