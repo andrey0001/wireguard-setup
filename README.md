@@ -141,12 +141,12 @@ You can run multiple instances of the script from different directories to manag
 # In directory A
 mkdir -p ~/vpn-office
 cd ~/vpn-office
-sudo ~/wireguard-setup.sh --interface wg0
+sudo ~/wireguard-setup.sh --interface wg0 --subnet 10.1.5.0/24 --port 12345
 
 # In directory B
 mkdir -p ~/vpn-home
 cd ~/vpn-home
-sudo ~/wireguard-setup.sh --interface wg1
+sudo ~/wireguard-setup.sh --interface wg1 --subnet 10.1.6.0/24 --port 12346
 ```
 
 Each directory will have its own `wireguard-setup.conf` file, allowing you to manage different WireGuard setups independently.
