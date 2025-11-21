@@ -298,7 +298,7 @@ DNS = $FORMATTED_DNS
 PublicKey = $SERVER_PUBLIC_KEY
 PresharedKey = $PRESHARED_KEY
 AllowedIPs = 0.0.0.0/0
-Endpoint = $(curl -s ifconfig.me):$PORT
+Endpoint = $(curl -s ipv4.goip.info):$PORT
 PersistentKeepalive = 25
 EOF
 
