@@ -122,7 +122,8 @@ get_subnet_base() {
 # Function to format DNS servers for client config
 format_dns_servers() {
     # Replace commas with spaces
-    echo "$DNS" | tr ',' ' '
+    # echo "$DNS" | tr ',' ' '
+    echo "$DNS"
 }
 
 # Function to load existing configuration
