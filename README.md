@@ -41,6 +41,7 @@ Options:
   -c, --clients COUNT     Number of clients to create (default: 1)
   -i, --interface NAME    WireGuard interface name (default: wg0)
   -d, --dns DNS_SERVERS   Comma-separated list of DNS servers (default: 1.1.1.1,8.8.8.8)
+  -f, --fqdn NAME         WireGuard Endpoint (defauld: IP-ADDRESS)
   -a, --add-client NAME   Add a new client to existing setup
   -h, --help              Display this help message
 ```
